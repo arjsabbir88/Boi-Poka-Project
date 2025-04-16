@@ -3,10 +3,10 @@ import React from "react";
 export const NavBar = () => {
   const links = (
     <>
-      <li className="m-3">Home</li>
-      <li className="m-3">About</li>
-      <li className="m-3">Books</li>
-      <li className="m-3">Contact</li>
+      <li className="m-3 hover:cursor-pointer">Home</li>
+      <li className="m-3 hover:cursor-pointer">About</li>
+      <li className="m-3 hover:cursor-pointer">Books</li>
+      <li className="m-3 hover:cursor-pointer">Contact</li>
     </>
   );
 
