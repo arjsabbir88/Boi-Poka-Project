@@ -14,6 +14,7 @@ export const BookDetails = () => {
     }= singleBook;
 
     const handleMarkIsRead = id =>{
+        alert("Your book added successfully");
         addToStoreDB(id)
     }
 
@@ -40,7 +41,7 @@ export const BookDetails = () => {
                     </div>
                     <div className='flex justify-center gap-4 mb-4'>
                         <button onClick={()=>handleMarkIsRead(id)} className='btn btn-soft btn-secondary'>Mark as read</button>
-                        <button className='btn btn-soft btn-secondary'>Wishlist</button>
+                        <button className='btn'>Wishlist</button>
                     </div>
                 </div>
             </div>

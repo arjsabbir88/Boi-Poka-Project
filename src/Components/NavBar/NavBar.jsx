@@ -6,8 +6,8 @@ export const NavBar = () => {
     <>
       <Link to='/'><li className="m-3 hover:cursor-pointer">Home</li></Link>
       <Link to='/about'><li className="m-3 hover:cursor-pointer">About</li></Link>
-      <li className="m-3 hover:cursor-pointer">Books</li>
-      <li className="m-3 hover:cursor-pointer">Contact</li>
+      <Link to='/readList'><li className="m-3 hover:cursor-pointer">Read List</li></Link>
+      
     </>
   );
 

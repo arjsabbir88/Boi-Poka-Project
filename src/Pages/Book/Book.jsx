@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 
 export const Book = ({ book }) => {
-    const {bookId,bookName,author,image, category,rating} = book;
+    const {bookId,bookName,author,image, category,rating,totalPages} = book;
   return (
     <>
       <Link to={`/bookDetails/${bookId}`}>
@@ -26,7 +26,7 @@ export const Book = ({ book }) => {
             category: {category}
             </p>
             <div className="card-actions justify-between">
-              <div className="btn btn-success">Show More</div>
+              <div className="btn btn-success">{totalPages}</div>
               <div className="btn">rating: {rating}</div>
             </div>
           </div>
