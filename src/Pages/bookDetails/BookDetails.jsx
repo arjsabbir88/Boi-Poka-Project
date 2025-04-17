@@ -14,7 +14,6 @@ export const BookDetails = () => {
     }= singleBook;
 
     const handleMarkIsRead = id =>{
-        alert("Your book added successfully");
         addToStoreDB(id)
     }
 

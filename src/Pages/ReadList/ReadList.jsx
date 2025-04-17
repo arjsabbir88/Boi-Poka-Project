@@ -7,7 +7,7 @@ import { Book } from "../Book/Book";
 
 export const ReadList = () => {
   const [readList, setReadList] = useState([]);
-  const [sort, setSort] = useState("");
+  const [, setSort] = useState("");
 
   const allData = useLoaderData();
   useEffect(() => {
